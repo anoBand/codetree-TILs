@@ -1,8 +1,8 @@
-# 숫자를 입력받는다.
-number = input("숫자를 입력하세요: ")
+n=int(input())
 
-# 숫자에 '1', '2', '3' 중 하나라도 포함되어 있는지 확인한다.
-if '1' in number or '2' in number or '3' in number:
-    print(0)
-else:
-    print(number)
+for i in range(1,n+1):
+    str_i=str(i)
+    if(i%3==0 or str_i=='3'or str_i=='6'or str_i=='9'):
+        print(0,'',end='')
+    else:
+        print(i,'',end='')
