@@ -7,7 +7,7 @@ while True:
     if(num>b):
         break
     else:
-        print(num,' ',end='')
+        print(num,end='')
         if(num%2==1):
             num*=2
         else:
